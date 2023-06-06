@@ -1,0 +1,107 @@
+/* element selectors */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+header, main{
+  background-color: #061130;
+  color: #F4F6F8;
+  justify-content: space-between;
+}
+
+header{
+  padding: 1.5em 1.5em 2.5em;
+}
+
+main{
+  padding: 7vh;
+  align-content: center;
+}
+
+h3{
+  padding: 0 1em;
+  font-weight: lighter;
+}
+
+h4 {
+  margin-top: 0;
+  color: #FAFD61;
+}
+
+
+footer{
+  color: #061130;
+  background-color: #eef3f3;
+  margin-bottom: 0;
+}
+
+ /* class selectors */
+
+
+ .display-flex{
+  display: flex;
+ }
+
+.chat-button{
+  background-color: #1C4BC4;
+  border-radius: 8%;
+  padding: 0em .3em;
+}
+
+.main-section{
+  justify-content: space-evenly;
+}
+
+.space-between{
+ padding: 0 2em;
+ }
+
+.left-content{
+  max-width: 27%;
+}
+
+.world-pic{
+  max-width: 448px;
+  object-fit: cover;
+}
+
+.link-section{
+  justify-content: center;
+  background-color: white;
+}
+
+.link-card{
+  padding: 1em;
+  margin: 3em;
+  color: #1C4BC4;
+  text-decoration: underline;
+}
+.footer-message{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2em 0;
+
+}
+
+.footer-h1{
+  margin-bottom: 0;
+}
+
+/* media queries */
+
+@media screen and (max-width: 480px){
+ main{
+  display: flex;
+  padding: 0;
+ }
+ .world-pic{
+  max-width: 218px;
+  object-fit: scale-down;
+ }
+}
+
+
+/* 820, 768 (ipad mini/air/surface pro 7) width shows main sectino fairly well, missing some of pic, 2 right header options and 1 right footer option, footer message is off center */
+/* duo shows very little */
