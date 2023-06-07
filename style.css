@@ -72,8 +72,9 @@ footer{
 }
 
 .link-card{
-  padding: 1em;
-  margin: 3em;
+  width: 15vw;
+  margin-top: 2em;
+  margin-bottom: 2em;
   color: #1C4BC4;
   text-decoration: underline;
 }
@@ -100,7 +101,17 @@ footer{
   max-width: 218px;
   object-fit: scale-down;
  }
-}
+ .link-card{
+  width: 25vw;
+ }
+ .display-flex{
+  display: block;
+ }
+ .left-content{
+ max-width: 100%;
+ }
+ }
+/* try display block instead of display flex on link card */
 
 
 /* 820, 768 (ipad mini/air/surface pro 7) width shows main sectino fairly well, missing some of pic, 2 right header options and 1 right footer option, footer message is off center */
